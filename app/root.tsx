@@ -1,8 +1,6 @@
-// import fontawsomeBrandsCss from "./styles/fontawsome/brands.min.css";
 import bootstrapCss from 'bootstrap/dist/css/bootstrap.min.css';
 import { Links, LinksFunction, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from 'remix';
 
-// import fontawsomeCss from './styles/fontawsome/all.min.css';
 import indexCss from './styles/index.css';
 
 import type { MetaFunction } from "remix";
@@ -14,7 +12,7 @@ export const meta: MetaFunction = () => {
     description,
     keywords: "Denis Fetinin,Golang developer,Software Developer",
     title: "Denis Fetinin | Software developer",
-  }
+  };
 };
 
 export const links: LinksFunction = () => {
@@ -53,6 +51,13 @@ export default function App() {
         <Scripts />
         <LiveReload />
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        {/* <!-- Cloudflare Web Analytics --> */}
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "581ad312b4524b2193b7a7900aa199a3"}'
+        ></script>
+        {/* <!-- End Cloudflare Web Analytics --> */}
       </body>
     </html>
   );
