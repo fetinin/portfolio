@@ -4,10 +4,8 @@ import About from '~/components/about';
 import Experience from '~/components/experience';
 import Footer from '~/components/footer';
 import Header from '~/components/header';
-import Projects from '~/components/projects';
 import Skills from '~/components/skills';
 import experienceData from '~/resume_content/experience';
-import projectsData from '~/resume_content/projects';
 import { skills } from '~/resume_content/skills';
 import socialData from '~/resume_content/social';
 import appCss from '~/styles/app.css';
@@ -24,7 +22,7 @@ export default function Index() {
     <div>
       <Header />
       <About/>
-      <Projects projects={projectsData} />
+      {/* <Projects projects={projectsData} /> */}
       <Skills skills={skills} />
       <Experience expirience={experienceData} />
       <Footer social={socialData}/>

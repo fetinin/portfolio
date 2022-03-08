@@ -1,36 +1,18 @@
 export default [
   {
-    "company": "DefOpenSource",
-    "title": "Front-End Developer",
-    "years": "10.2019 - present",
-    "mainTech": [
-      "Angular 8/9/10"
-    ],
-    "technologies": [
-      "REST API",
-      "RxJS",
-      "JavaScript",
-      "Bootstrap",
-      "MDBootstrap",
-      "EF Core",
-      ".NET Core",
-      "SignalR",
-      "Angular Material"
-    ]
+    title: "Senior Software Developer",
+    company: { title: "Lamoda", link: "https://lamoda.ru/" },
+    years: "10.2019 - present",
+    mainTech: ["Golang"],
+    technologies: ["Kafka", "PostgreSQL", "Kubernetes", "Python 3.6+", "Vue.js", "Django", "Reddis", "RabbitMQ"],
+    iconClass: "fa-brands fa-golang",
   },
   {
-    "company": "Serros Solutions",
-    "title": "Intern",
-    "years": "01.2018 - 09.2019",
-    "mainTech": [
-      "Angular 7/8"
-    ],
-    "technologies": [
-      "RxJS",
-      "Django",
-      "PHP",
-      "JavaScript",
-      "DHTMLX Gantt"
-    ]
-  }
-]
+    title: "Python Developer",
+    company: { title: "Tionix", link: "https://www.tionix.ru" },
+    years: "09.2016 - 08.2018",
+    mainTech: ["Python 2.7/3"],
+    technologies: ["Python", "Django", "RabbitMQ", "MySQL", "CentOS", "Rest API", "SQLAlchemy"],
+    iconClass: "fab fa-python",
+  },
+];

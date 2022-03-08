@@ -1,16 +1,11 @@
-import {
-  Links,
-  LinksFunction,
-  LiveReload,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "remix";
-import type { MetaFunction } from "remix";
+// import fontawsomeBrandsCss from "./styles/fontawsome/brands.min.css";
+import bootstrapCss from 'bootstrap/dist/css/bootstrap.min.css';
+import { Links, LinksFunction, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from 'remix';
 
-import indexCss from "./styles/index.css";
-import bootstrapCss from "bootstrap/dist/css/bootstrap.min.css";
+// import fontawsomeCss from './styles/fontawsome/all.min.css';
+import indexCss from './styles/index.css';
+
+import type { MetaFunction } from "remix";
 
 export const meta: MetaFunction = () => {
   return { title: "Denis Fetinin | Software developer" };
@@ -20,7 +15,7 @@ export const links: LinksFunction = () => {
   return [
     {
       rel: "stylesheet",
-      href: "https://pro.fontawesome.com/releases/v5.10.0/css/all.css",
+      href: "fontawsome/all.min.css",
     },
     {
       rel: "stylesheet",

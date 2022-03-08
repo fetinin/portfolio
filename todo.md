@@ -1,0 +1,1 @@
+- Add section about courses and certificates
