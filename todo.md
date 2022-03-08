@@ -1,1 +1,3 @@
 - Add section about courses and certificates
+- Add Books section
+- Add more details to Experience section

@@ -39,13 +39,11 @@ export default function About() {
                   }}
                 >
                   <br />
-                  <span className="wave">Hi :) </span>
+                  <span className="wave">Hi 👋</span>
                   <br />
                   <br />
-                  👋 I'm Denis Fetinin. Fictional person for preview purposes :) I'm working with newest front-end
-                  frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997.
-                  If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for
-                  other users. Thank you 💜
+                  <p>I'm Denis Fetinin. Golang and Python developer that loves building software. :)</p>
+                  <p>I have expirience with microservices and event-driven architecture. Worked in E-commerce on apps and website backend, discounts, catalog, pricing, checkout, cart and other systems.</p>
                 </div>
               </div>
             </div>
