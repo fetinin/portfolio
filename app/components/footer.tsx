@@ -1,22 +1,6 @@
-export default function Footer() {
-  const social = [
-    {
-      name: "github",
-      url: "https://github.com/What-If-I",
-      class: "fab fa-github",
-    },
-    {
-      name: "instagram",
-      url: "https://www.instagram.com/d.fetinin",
-      class: "fab fa-instagram",
-    },
-    {
-      name: "telegram",
-      url: "https://www.t.me/fetinin",
-      class: "fab fa-telegram",
-    },
-  ];
+import socialData from '~/resume_content/social';
 
+export default function Footer({social}: {social: typeof socialData}) {
   var networks = social.map(function (network) {
     return (
       <span key={network.name} className="m-4">

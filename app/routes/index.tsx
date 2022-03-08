@@ -9,6 +9,7 @@ import Skills from '~/components/skills';
 import experienceData from '~/resume_content/experience';
 import projectsData from '~/resume_content/projects';
 import { skills } from '~/resume_content/skills';
+import socialData from '~/resume_content/social';
 import appCss from '~/styles/app.css';
 
 export const links: LinksFunction = () => {
@@ -62,7 +63,7 @@ export default function Index() {
       <Projects projects={projectsData} />
       <Skills skills={skills} />
       <Experience expirience={experienceData} />
-      <Footer />
+      <Footer social={socialData}/>
     </div>
   );
 }
