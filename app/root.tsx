@@ -8,7 +8,13 @@ import indexCss from './styles/index.css';
 import type { MetaFunction } from "remix";
 
 export const meta: MetaFunction = () => {
-  return { title: "Denis Fetinin | Software developer" };
+  const description = "Hey! Welcome to my website where I share my experience and projects 👋";
+  return {
+    charset: "utf-8",
+    description,
+    keywords: "Denis Fetinin,Golang developer,Software Developer",
+    title: "Denis Fetinin | Software developer",
+  }
 };
 
 export const links: LinksFunction = () => {
