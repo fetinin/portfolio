@@ -1,6 +1,6 @@
+import golangIcon from '@iconify/icons-fa6-brands/golang';
 import kubernetesIcon from '@iconify/icons-logos/kubernetes';
 import pythonIcon from '@iconify/icons-logos/python';
-import vueIcon from '@iconify/icons-logos/vue';
 import { Icon } from '@iconify/react';
 
 export default function About() {
@@ -15,18 +15,9 @@ export default function About() {
             <div className="polaroid">
               <span style={{ cursor: "auto" }}>
                 <img src="images/myProfile.webp" alt="My profile picture" />
-                <Icon
-                  icon={pythonIcon}
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={kubernetesIcon}
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={vueIcon}
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
+                <Icon icon={golangIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%", color: "#00ADD8" }} />
+                <Icon icon={pythonIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+                <Icon icon={kubernetesIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
               </span>
             </div>
           </div>
@@ -35,23 +26,9 @@ export default function About() {
             <div className="col-md-10">
               <div className="card">
                 <div className="card-header">
-                  <span
-                    className="iconify"
-                    data-icon="emojione:red-circle"
-                    data-inline="false"
-                  ></span>{" "}
-                  &nbsp;{" "}
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:yellow-circle"
-                    data-inline="false"
-                  ></span>{" "}
-                  &nbsp;{" "}
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:green-circle"
-                    data-inline="false"
-                  ></span>
+                  <span className="iconify" data-icon="emojione:red-circle" data-inline="false"></span> &nbsp;{" "}
+                  <span className="iconify" data-icon="twemoji:yellow-circle" data-inline="false"></span> &nbsp;{" "}
+                  <span className="iconify" data-icon="twemoji:green-circle" data-inline="false"></span>
                 </div>
                 <div
                   className="card-body font-trebuchet text-justify ml-3 mr-3"
@@ -65,7 +42,10 @@ export default function About() {
                   <span className="wave">Hi :) </span>
                   <br />
                   <br />
-                  👋 I'm Denis Fetinin. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜
+                  👋 I'm Denis Fetinin. Fictional person for preview purposes :) I'm working with newest front-end
+                  frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997.
+                  If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for
+                  other users. Thank you 💜
                 </div>
               </div>
             </div>
