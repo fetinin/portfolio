@@ -27,7 +27,7 @@ export default [
     company: { title: "Tionix", link: "https://www.tionix.ru" },
     years: "09.2016 - 08.2018",
     mainTech: ["Python 2.7/3"],
-    technologies: ["Python", "Django", "RabbitMQ", "MySQL", "CentOS", "Rest API", "SQLAlchemy"],
+    technologies: ["Python", "Django", "RabbitMQ", "MySQL", "Rest API", "SQLAlchemy", "Openstack"],
     iconClass: "fab fa-python",
   },
 ];
