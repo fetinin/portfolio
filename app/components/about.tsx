@@ -42,8 +42,8 @@ export default function About() {
                   <span className="wave">Hi 👋</span>
                   <br />
                   <br />
-                  <p>I'm Denis Fetinin. Golang and Python developer that loves building software. :)</p>
-                  <p>Secretly love frontend but most of the time work as a backend developer. I have expirience with microservices and event-driven architecture. Worked in E-commerce on apps and website backend, discounts, catalog, pricing, checkout, cart and other systems.</p>
+                  <p>I'm Denis Fetinin. Golang and Python developer who loves building software. :)</p>
+                  <p>Secretly love frontend but most of the time work as a backend developer. I have expirience with microservices and event-driven architecture. Worke in E-commerce on apps and website backend, discounts, catalog, pricing, checkout, cart and other systems.</p>
                 </div>
               </div>
             </div>
