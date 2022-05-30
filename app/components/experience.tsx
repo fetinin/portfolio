@@ -2,8 +2,8 @@ import Badge from 'react-bootstrap/Badge';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import experienceData from '~/resume_content/experience';
 
-export default function Experience({ expirience }: { expirience: typeof experienceData }) {
-  const work = expirience.map(function (work, i) {
+export default function Experience({ experience: experience }: { experience: typeof experienceData }) {
+  const work = experience.map(function (work, i) {
 
     const mainTech = work.mainTech.map((technology, i) => {
       return (

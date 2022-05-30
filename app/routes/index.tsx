@@ -27,7 +27,7 @@ export default function Index() {
       <About/>
       {/* <Projects projects={projectsData} /> */}
       <Skills skills={skills} />
-      <Experience expirience={experienceData} />
+      <Experience experience={experienceData} />
       <Footer social={socialData}/>
     </div>
   );
