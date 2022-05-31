@@ -15,12 +15,6 @@ export default function Footer({social}: {social: typeof socialData}) {
     <footer>
       <div className="col-md-12">
         <div className="social-links">{networks}</div>
-
-        <div className="copyright py-4 text-center">
-          <div className="container">
-            <small>Copyright &copy; Denis Fetinin</small>
-          </div>
-        </div>
       </div>
     </footer>
   );
