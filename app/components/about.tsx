@@ -40,7 +40,7 @@ export default function About() {
                   <br />
                   <br />
                   <p>I'm Denis Fetinin. Golang and Python developer who Secretly love frontend but most of the time work as a backend developer. :)</p>
-                  <p>I have experience with microservices and event-driven architecture. Work in E-commerce on apps and website backend, discounts, catalog, pricing, checkout, cart and other systems.</p>
+                  <p>I have expirience with microservices and event-driven architecture. Worke in E-commerce on apps and website backend, discounts, catalog, pricing, checkout, cart and other systems.</p>
                   <p>Like to work in a small to medium teams and help understand business requirements, plan and document architecture, decompose, write tasks and get things done. Always happy to help my colleagues.</p>
                 </div>
               </div>
