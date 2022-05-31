@@ -7,9 +7,6 @@ export default function About() {
   return (
     <section id="about">
       <div className="col-md-12">
-        <h1 style={{ color: "black" }}>
-          <span>About me</span>
-        </h1>
         <div className="row center mx-auto mb-5">
           <div className="col-md-4 mb-5 center">
             <div className="polaroid">
