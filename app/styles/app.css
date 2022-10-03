@@ -689,11 +689,10 @@ html {
   justify-content: center; }
 
 .title-container {
-  height: 50px; }
-
-.title-styles {
+  height: 50px; 
   font-family: 'Raleway', sans-serif;
-  font-size: 250%; }
+  font-size: 250%; 
+}
 
 .header-icon {
   height: 150px;
