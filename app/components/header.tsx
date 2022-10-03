@@ -36,10 +36,9 @@ export default function Header() {
             <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
             <br />
             <h1 className="mb-0">
-            {/* Denis Fetinin */}
               <Typewriter words={["Denis Fetinin"]}/>
             </h1>
-            <div className="title-container title-styles">
+            <div className="title-container">
               <Typewriter words={titlesFormatted} loop={Infinity} typeSpeed={50} />
             </div>
             {/* <Switch
