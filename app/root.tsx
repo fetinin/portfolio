@@ -1,9 +1,10 @@
 import bootstrapCss from 'bootstrap/dist/css/bootstrap.min.css';
-import { Links, LinksFunction, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from 'remix';
+
+import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
+import { LinksFunction, MetaFunction } from '@remix-run/react/dist/routeModules';
 
 import indexCss from './styles/index.css';
-
-import type { MetaFunction } from "remix";
+import navbarCss from './styles/navbar.css';
 
 export const meta: MetaFunction = () => {
   const description = "Hey! Welcome to my website where I share my experience and projects 👋";
@@ -33,6 +34,10 @@ export const links: LinksFunction = () => {
       rel: "stylesheet",
       href: bootstrapCss,
     },
+    {
+      rel: "stylesheet",
+      href: navbarCss,
+    },
   ];
 };
 
@@ -46,6 +51,7 @@ export default function App() {
         <Links />
       </head>
       <body>
+        {/* <Navbar /> */}
         <Outlet />
         <ScrollRestoration />
         <Scripts />

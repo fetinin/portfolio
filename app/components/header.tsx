@@ -1,4 +1,4 @@
-import Typical from 'react-typical';
+import { Typewriter } from 'react-simple-typewriter';
 
 // class Header extends Component {
 //   titles = [];
@@ -26,8 +26,7 @@ import Typical from 'react-typical';
 
 export default function Header() {
   const titles = ["Golang Developer", "Python developer", "Tech Lead"];
-  const animationSpeed = 500;
-  const titlesFormatted = titles.map((x) => [x.toUpperCase(), animationSpeed]).flat();
+  const titlesFormatted = titles.map((x) => [x.toUpperCase()]).flat();
 
   return (
     <header id="home">
@@ -37,10 +36,11 @@ export default function Header() {
             <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
             <br />
             <h1 className="mb-0">
-              <Typical steps={["Denis Fetinin"]} wrapper="p" />
+            {/* Denis Fetinin */}
+              <Typewriter words={["Denis Fetinin"]}/>
             </h1>
-            <div className="title-container">
-              <Typical className="title-styles" steps={titlesFormatted} loop={Infinity} />
+            <div className="title-container title-styles">
+              <Typewriter words={titlesFormatted} loop={Infinity} typeSpeed={50} />
             </div>
             {/* <Switch
               checked={checked}
